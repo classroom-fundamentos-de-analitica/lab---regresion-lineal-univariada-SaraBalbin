@@ -28,16 +28,18 @@ def pregunta_01():
     print(X.shape)
 
     # Transforme `y` a un array de numpy usando reshape
-    y_reshaped = y.reshape(-1, 1) # Mantener las filas que se tienen, 1 columna
+    y_reshaped = y.values.reshape(-1, 1) # Mantener las filas que se tienen, 1 columna
 
     # Trasforme `X` a un array de numpy usando reshape
-    X_reshaped = X.reshape(-1, 1) # Mantener las filas que se tienen, 1 columna
+    X_reshaped = X.values.reshape(-1, 1) # Mantener las filas que se tienen, 1 columna
 
     # Imprima las nuevas dimensiones de `y`
     print(y.shape)
 
     # Imprima las nuevas dimensiones de `X`
     print(X.shape)
+
+pregunta_01()
 
 
 def pregunta_02():
