@@ -34,10 +34,10 @@ def pregunta_01():
     X_reshaped = X.values.reshape(-1, 1) # Mantener las filas que se tienen, 1 columna
 
     # Imprima las nuevas dimensiones de `y`
-    print(y.shape)
+    print(y_reshaped.shape)
 
     # Imprima las nuevas dimensiones de `X`
-    print(X.shape)
+    print(X_reshaped.shape)
 
 pregunta_01()
 
